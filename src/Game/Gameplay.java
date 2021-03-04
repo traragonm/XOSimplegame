@@ -201,7 +201,7 @@ public class Gameplay extends JFrame implements ActionListener {
         });
         resetGameMenu.setEnabled(!isPlaying);
         fileMenu.add(fileMenuNewGame);
-        fileMenuExit.add(resetGameMenu);
+        fileMenu.add(resetGameMenu);
         fileMenu.add(fileMenuExit);
         optionMenu = new JMenu("Options");
         optionMenu.setEnabled(false);
